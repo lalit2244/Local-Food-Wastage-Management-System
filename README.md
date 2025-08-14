@@ -22,6 +22,7 @@ Run online via Google Colab + ngrok
 Lightweight (no heavy installations)
 
 🛠️ Tools & Technologies Used
+
 Tool / Library	Purpose
 Python	Core programming language
 Streamlit	Web application framework
