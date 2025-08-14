@@ -31,3 +31,35 @@ Pandas	Data manipulation and filtering
 Matplotlib	Data visualization
 ngrok	Makes local app accessible online
 Google Colab	Runs app in the cloud without setup
+
+Database Tables
+1. Providers
+Field	Type
+Provider_ID	INTEGER (PK)
+Name	TEXT
+City	TEXT
+Contact	TEXT
+Provider_Type	TEXT
+Email	TEXT
+2. Food Listings
+Field	Type
+Food_ID	INTEGER (PK)
+Food_Name	TEXT
+Quantity	INTEGER
+Expiry_Date	TEXT
+Provider_ID	INTEGER (FK)
+Location	TEXT
+Food_Type	TEXT
+Meal_Type	TEXT
+3. Receivers
+Field	Type
+Receiver_ID	INTEGER (PK)
+Name	TEXT
+City	TEXT
+Contact	TEXT
+4. Claims
+Field	Type
+Claim_ID	INTEGER (PK)
+Food_ID	INTEGER (FK)
+Receiver_ID	INTEGER (FK)
+Status	TEXT
